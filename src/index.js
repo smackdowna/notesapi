@@ -5,10 +5,12 @@ const userRouter = require("./routes/userRoutes");
 const dotenv = require("dotenv");
 const cors = require("cors")
 
+dotenv.config();
+
 const mongoose = require("mongoose")
 
 
-dotenv.config();
+
 
 app.use(express.json());
 
